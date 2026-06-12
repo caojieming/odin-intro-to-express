@@ -1,0 +1,24 @@
+{
+  "name": "odin-intro-to-express",
+  "version": "1.0.0",
+  "description": "Practice with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caojieming/odin-intro-to-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/caojieming/odin-intro-to-express/issues"
+  },
+  "homepage": "https://github.com/caojieming/odin-intro-to-express#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
