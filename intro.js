@@ -5,8 +5,14 @@ const express = require("express");
 // our server
 const app = express();
 
-// route received, what the server is GETting -> what the server responds with
+
+// received a GET request with input "/" -> respond with "Hello, world!"
 app.get("/", (req, res) => res.send("Hello, world!"));
+
+// received a POST request with input "/messages" -> respond with "This is where you can see any messages."
+app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
+
+
 
 // tell our server to listen for incoming requests on whatever port we specify, via localhost
 const PORT = process.env.PORT || 3000;

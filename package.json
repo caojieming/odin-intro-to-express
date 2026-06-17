@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch app.js"
+    "intro": "node --watch intro.js",
+    "routers": "node --watch routers.js"
   },
   "repository": {
     "type": "git",

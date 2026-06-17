@@ -1,2 +1,2 @@
 # odin-intro-to-express
-Practice with Express
+Practice with Express from the Odin Project. Includes: intro, routes
